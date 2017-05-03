@@ -156,3 +156,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # ModemService
 PRODUCT_COPY_FILES += \
   device/google/taimen/whitelist_modemservice.xml:system/etc/sysconfig/whitelist_modemservice.xml
+
+# UI
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.use_fifo_ui=1
